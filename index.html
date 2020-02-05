@@ -1,0 +1,226 @@
+ <!DOCTYPE html>
+ <html lang="fr">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Florian_Saint-jean">
+    <meta name="description" content="Developeur web, web mobile">
+    <meta name="robots" content="index">
+    <!--<meta http-equiv="refresh" content="2">-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <title>Florian Saint-Jean</title>
+ </head>
+ <body>
+    <header class="header" data-stellar-background-ratio="0.5">
+        <nav class="nav-bar">
+            <h2>FSJ</h2>
+            <div id="responsive-navbar">
+                <div id="burger-menu">
+                    <span class="bars"></span>
+                    <span class="bars"></span>
+                    <span class="bars"></span>
+                </div>
+                <ul class="nav-flex hidden" id="nav-flex">
+                    <li><a href="#" onclick="goDown('#about');">Expériences</a></li>
+                    <li><a href="#" onclick="goDown('#skills');">Competences</a></li>
+                    <li><a href="#" onclick="goDown('#project');">Projet</a></li>
+                    <li><a href="#" onclick="goDown('#contact');">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="header-content">
+            <h1 id="header-title">Florian Saint-Jean</h1>
+            <hr class="hr-item">
+            <span id="down" onclick="goDown('#about');">&#8595;</span>
+        </div>
+    </header>
+    
+    <main class="main">
+ 
+        <!--
+        <section id="about-title" data-stellar-background-ratio="0.5">
+            <h2>A propos</h2>
+        </section>
+        -->
+
+        <article id="about">
+            <ul>
+                <li>
+                    <div>
+                        <h3>2019 : Formation developpeur web</h3>
+                        <p>Developpeur web, web mobile apprentissage de plusieurs langages de programmation (html, css, php, Javascript, MySql)</p>
+                    </div>
+                </li>
+            
+                <li>
+                    <div>
+                        <h3>2018 :Agent de production Senior GlaxoSmithKline+Formation autodidacte</h3>
+                        <p>production de vaccins liquide RTSS, filtration des milieux, respect des réglementations d'hygiène. Apprentissage et découverte de plusieurs langages de programmation</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>2017 :Interimaire MAISON GUIOT </h3>
+                        <p>Palettiseur en production alimentaire de Sirops, employé polyvalent , procédure et plan de stockage</p>
+                    </div>
+                </li>
+               <li>
+                    <div>
+                        <h3>2016 : Travail interimaire</h3>
+                        <p>Déménageur société Gallieni <br /> Agent de production, Sundis </p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>2015 : Baccalauréat professionnel ELEEC</h3>
+                        <p>Obtention du bac pro electrotechnique </p>
+                    </div>
+                </li>
+            </ul>
+        </article>
+    
+        <section id="skills-title" data-stellar-background-ratio="0.5">
+            <h3>Competences</h3 >
+        </section>
+
+        <article id="skills">
+            <ul>
+                <li>
+                    <div>
+                        <div class="wraper-card">
+                            <h3>Back-end</h3>
+                            <img id="engrenage" src="images/settingsback-end-logo.png"/>
+                            <div class="bottom-card">
+                                <ul>
+                                    <li>PhP</li>
+                                    <li>MySql</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="wraper-card">
+                            <h3>Front-end</h3>
+                            <img src="images/imagefront-end-logo.png"/>
+                            <div class="bottom-card">
+                                <ul>
+                                    <li>Html</li>
+                                    <li>Css</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="wraper-card">
+                            <h3>Extra</h3>
+                            <img src="images/starextra-logo.png"/>
+                            <div class="bottom-card">
+                                <ul>
+                                    <li>Anglais <br /> intermediaire <br /> Permis B</li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </article>
+
+        <section id="project-title" data-stellar-background-ratio="0.5">
+            <h3>Projet</h3>
+        </section>
+
+        <article id="project">
+            <div id="mosaique">
+                <div id="upper-line">
+                    <div class="project">
+                        <figure class="fig">
+                            <img src="images/project1-image.jpg" alt="Project">
+                            <figcaption>
+                                <h2>Projet blabla</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque</p>
+                                <a href="#"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    
+                    <div class="project">
+                        <figure class="fig">
+                            <img src="images/project2.jpg" alt="Project">
+                            <figcaption>
+                                <h2>text a mettre </h2>
+                                <p>Text description </p>
+                                <a href="#"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="project">
+                        <figure class="fig">
+                            <img src="images/project3.jpg" alt="Project">
+                            <figcaption>
+                                <h2>text a mettre </h2>
+                                <p>Text description </p>
+                                <a href="#"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+        <article id="contact">
+            <h2>Contact</h2>
+            <div>
+                <form id="contactform" name="contactform" action="https://formspree.io/xjvwwvzk" method="POST">
+                    <label for="name_form">Nom Prenom</label>
+                    <input type="text" id="name" name="name" placeholder="Nom Prénom"  required>
+                    <label for="email_form">Email</label>
+                    <input type="text" id="email_form" name="_replyto" placeholder="email@" required>
+                    <label for="message_form">Message</label>
+                    <textarea name="message" id="message_form" cols="30" rows="5" placeholder="Votre message" required></textarea>
+                    <input type="text" name="_gotcha" style="display:none" >
+                    <input type="hidden" name="_next" value=""/>
+                    <input id="submit-form" type="submit" name="submit" value="Envoyer">
+                </form>
+            </div>
+        </article>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-2.0.2.js"></script>
+    <script type="text/javascript" src="js/jquery.stellar.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+        var contactform = document.getElementById('contactform');
+        contactform.setAttribute('action', '//formspree.io/' + 'form-mail-recieve' + '@' + 'pm' + '.' + 'me');
+    </script>
+    <script type="text/javascript">
+        window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+        }
+
+        function goDown(direction) {
+            $("html").scrollTop(0);
+            $('html, body').animate({
+                scrollTop: $(direction).offset().top
+            }, 2000);
+        }
+    </script>
+
+    <script>
+        $.stellar();
+    </script>
+ </body>
+ </html>
